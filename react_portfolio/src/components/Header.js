@@ -17,12 +17,21 @@ export default function Header() {
       );
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio />;
+      return (
+        <Portfolio />,
+        <Footer />
+      );
     }
     if (currentPage === 'Resume') {
-      return <Resume />;
+      return (
+        <Resume />,
+        <Footer />
+      );
     }
-    return <Contact />;
+    return (
+      <Contact />,
+      <Footer />
+    );
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
