@@ -1,11 +1,10 @@
 import React from 'react';
 
-export default function Contact({ input1, input2, input3, handleChange, handleSubmit }) {
+export default function Contact({ input1, input2, input3, handleChange1, handleChange2, handleChange3, handleSubmit }) {
   return (
     <div>
       <h1>Contact Me!</h1>
       <form onSubmit={handleSubmit}>
-        <div className="form-group">
           <label for="name-input">Your Name</label>
           <input
             type="text"
@@ -13,11 +12,9 @@ export default function Contact({ input1, input2, input3, handleChange, handleSu
             value={input1}
             name="name"
             className="name-input"
-            onChange={handleChange}
+            onChange={handleChange1}
           ></input>
-        </div>
-        <br />
-        <div className="form-group">
+      <br />
           <label for="email-input">Your Email</label>
           <input
             type="text"
@@ -25,11 +22,9 @@ export default function Contact({ input1, input2, input3, handleChange, handleSu
             value={input2}
             name="email"
             className="email-input"
-            onChange={handleChange}
+            onChange={handleChange2}
           ></input>
-        </div>
-        <br />
-        <div className="form-group">
+      <br />
           <label for="message-input">Message</label>
           <input
             type="textarea"
@@ -37,9 +32,8 @@ export default function Contact({ input1, input2, input3, handleChange, handleSu
             value={input3}
             name="message"
             className="message-input"
-            onChange={handleChange}
+            onChange={handleChange3}
           ></input>
-        </div>
       </form>
     </div>
   );

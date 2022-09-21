@@ -45,7 +45,7 @@ export default function Header() {
     }
     return (
       <div>
-        <Contact handleSubmit={submitMessage} handleChange={handleChange} input1={input} input2={input} input3={input} />
+        <Contact handleSubmit={submitMessage} handleChange1={handleChange} handleChange2={handleChange} handleChange3={handleChange} input1={input} input2={input} input3={input} />
         <Footer />
       </div>
     );
