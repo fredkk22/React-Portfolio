@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Contact({ input, handleChange, handleSubmit }) {
+export default function Contact({ input1, input2, input3, handleChange, handleSubmit }) {
   return (
     <div>
       <h1>Contact Me!</h1>
@@ -10,7 +10,7 @@ export default function Contact({ input, handleChange, handleSubmit }) {
           <input
             type="text"
             placeholder="Your Name"
-            value={input}
+            value={input1}
             name="name"
             className="name-input"
             onChange={handleChange}
@@ -22,7 +22,7 @@ export default function Contact({ input, handleChange, handleSubmit }) {
           <input
             type="text"
             placeholder="Your Email Address"
-            value={input}
+            value={input2}
             name="email"
             className="email-input"
             onChange={handleChange}
@@ -34,7 +34,7 @@ export default function Contact({ input, handleChange, handleSubmit }) {
           <input
             type="textarea"
             placeholder="Type your message here"
-            value={input}
+            value={input3}
             name="message"
             className="message-input"
             onChange={handleChange}
