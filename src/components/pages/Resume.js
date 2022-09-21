@@ -20,7 +20,7 @@ export default function Home() {
         <li>React.js</li>
       </ul>
       <br />
-      <a href="../resume/FreddyKwak_Resume.pdf" download="Freddy_Kwak's_Resume"><button>Download My Resume</button></a>
+      <a href="src\components\resume\FreddyKwak_Resume.pdf" download="Freddy_Kwak's_Resume"><button>Download My Resume</button></a>
     </div>
   );
 }
