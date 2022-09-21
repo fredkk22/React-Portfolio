@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav">
       <li className="nav-item">
         <a href="#aboutme"
           onClick={() => handlePageChange('AboutMe')}
