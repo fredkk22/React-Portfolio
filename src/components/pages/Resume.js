@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../resume/FreddyKwak_Resume.pdf'
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         <li>React.js</li>
       </ul>
       <br />
-      <a href="./src/components/resume/FreddyKwak_Resume.pdf" download="Freddy_Kwak's_Resume"><button>Download My Resume</button></a>
+      <a href={resume} download="Freddy_Kwak's_Resume"><button className="btn btn-primary">Download My Resume</button></a>
     </div>
   );
 }
