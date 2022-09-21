@@ -1,13 +1,22 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.9bd7a35e.css",
-    "main.js": "/React-Portfolio/static/js/main.bf251f9a.js",
+    "main.js": "/React-Portfolio/static/js/main.6c68b362.js",
+    "static/media/foodfreqs_ss.png": "/React-Portfolio/static/media/foodfreqs_ss.bd9eb59e2a5f48063b33.png",
+    "static/media/FreddyKwak_Resume.pdf": "/React-Portfolio/static/media/FreddyKwak_Resume.d96c9bc0d95e3bf532b0.pdf",
+    "static/media/portfolio-profile-image.jpg": "/React-Portfolio/static/media/portfolio-profile-image.28eace8a1e33c1fcfe1d.jpg",
+    "static/media/workdayscheduler_ss.png": "/React-Portfolio/static/media/workdayscheduler_ss.7b8443106b77d341066a.png",
+    "static/media/GitThatMoney_SS.PNG": "/React-Portfolio/static/media/GitThatMoney_SS.869c2e45e530e1b25284.PNG",
+    "static/media/thetechblog_ss.png": "/React-Portfolio/static/media/thetechblog_ss.fbc937675e46c5714743.png",
+    "static/media/passwordgenerator_ss.PNG": "/React-Portfolio/static/media/passwordgenerator_ss.ed055c86621ae2080f89.PNG",
+    "static/media/jate_ss.png": "/React-Portfolio/static/media/jate_ss.63159131e2fc164edccd.png",
+    "static/media/768px-Stack_Overflow_icon.png": "/React-Portfolio/static/media/768px-Stack_Overflow_icon.0123b8df35f2e7d20bc8.png",
     "index.html": "/React-Portfolio/index.html",
     "main.9bd7a35e.css.map": "/React-Portfolio/static/css/main.9bd7a35e.css.map",
-    "main.bf251f9a.js.map": "/React-Portfolio/static/js/main.bf251f9a.js.map"
+    "main.6c68b362.js.map": "/React-Portfolio/static/js/main.6c68b362.js.map"
   },
   "entrypoints": [
     "static/css/main.9bd7a35e.css",
-    "static/js/main.bf251f9a.js"
+    "static/js/main.6c68b362.js"
   ]
 }
