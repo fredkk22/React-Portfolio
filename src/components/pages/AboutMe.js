@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <div>
       <h1>About Me!</h1>
-      <img alt="Freddy smiling on a bridge" src="./images/Portfolio Image.jpg"></img>
+      <img alt="Freddy Smiling on a Bridge" src="./images/portfolio-profile-image.jpg"></img>
       <p>
         B.A. in Communication, Villanova University / Aug 2018 - Dec 2021
       </p>
