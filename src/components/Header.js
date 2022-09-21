@@ -9,12 +9,16 @@ import Footer from './Footer';
 
 export default function Header() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
-  const [input, setInput] = useState('');
+  const [input1, setInput1] = useState('');
+  const [input2, setInput2] = useState('');
+  const [input3, setInput3] = useState('');
 
   const submitMessage = (e) => {
     e.preventDefault();
 
-    setInput('');
+    setInput1('');
+    setInput2('');
+    setInput3('');
   };
 
   const renderPage = () => {
@@ -45,7 +49,7 @@ export default function Header() {
     }
     return (
       <div>
-        <Contact handleSubmit={submitMessage} handleChange1={handleChange} handleChange2={handleChange} handleChange3={handleChange} input1={input} input2={input} input3={input} />
+        <Contact handleSubmit={submitMessage} handleChange={handleChange} input1={input1} input2={input2} input3={input3} />
         <Footer />
       </div>
     );
@@ -53,7 +57,9 @@ export default function Header() {
 
   const handlePageChange = (page) => setCurrentPage(page);
   const handleChange = (e) => {
-    setInput(e.target.value);
+    setInput1(e.target.value);
+    setInput2(e.target.value);
+    setInput3(e.target.value);
   };
 
   return (
