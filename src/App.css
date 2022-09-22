@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0.25rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+p, label, .nav-item {
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+.allheaders {
+  font-size: 2rem;
+}
+
+.footericons {
+  width: 15%;
+  height: 15%;
+}
+
+.footericons:hover {
+  transition-duration: 0.5s;
+  background-color: rgb(219, 238, 255);
+  padding: 8px;
+}
+
+.projImg {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  background-color: rgb(219, 238, 255);
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

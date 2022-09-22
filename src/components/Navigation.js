@@ -2,11 +2,11 @@ import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <div className="navbar">
       <h1 className="m-2">
         Freddy Kwak's Portfolio
       </h1>
-      <ul className="nav display-flex justify-content-end">
+      <ul className="nav d-flex justify-content-end">
         <li className="nav-item">
           <a href="#aboutme"
             onClick={() => handlePageChange('AboutMe')}
