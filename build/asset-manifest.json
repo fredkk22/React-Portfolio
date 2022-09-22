@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.9bd7a35e.css",
-    "main.js": "/React-Portfolio/static/js/main.6c68b362.js",
+    "main.css": "/React-Portfolio/static/css/main.de2a52f0.css",
+    "main.js": "/React-Portfolio/static/js/main.c4860452.js",
     "static/media/foodfreqs_ss.png": "/React-Portfolio/static/media/foodfreqs_ss.bd9eb59e2a5f48063b33.png",
     "static/media/FreddyKwak_Resume.pdf": "/React-Portfolio/static/media/FreddyKwak_Resume.d96c9bc0d95e3bf532b0.pdf",
     "static/media/portfolio-profile-image.jpg": "/React-Portfolio/static/media/portfolio-profile-image.28eace8a1e33c1fcfe1d.jpg",
@@ -12,11 +12,11 @@
     "static/media/jate_ss.png": "/React-Portfolio/static/media/jate_ss.63159131e2fc164edccd.png",
     "static/media/768px-Stack_Overflow_icon.png": "/React-Portfolio/static/media/768px-Stack_Overflow_icon.0123b8df35f2e7d20bc8.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.9bd7a35e.css.map": "/React-Portfolio/static/css/main.9bd7a35e.css.map",
-    "main.6c68b362.js.map": "/React-Portfolio/static/js/main.6c68b362.js.map"
+    "main.de2a52f0.css.map": "/React-Portfolio/static/css/main.de2a52f0.css.map",
+    "main.c4860452.js.map": "/React-Portfolio/static/js/main.c4860452.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bd7a35e.css",
-    "static/js/main.6c68b362.js"
+    "static/css/main.de2a52f0.css",
+    "static/js/main.c4860452.js"
   ]
 }
